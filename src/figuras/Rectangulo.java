@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package figuras;
 import java.util.Scanner;
 /**
@@ -27,6 +24,9 @@ public class Rectangulo extends Figuras{
 		double resultado = base * 2 + altura * 2;
 		return super.perimetro() + resultado;
 	}
-
+        
+public double tiempoProc(){
+		return super.tiempoProc(); 
+	} 
     
 }

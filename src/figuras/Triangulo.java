@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package figuras;
 
 import java.util.Scanner;
@@ -33,7 +30,7 @@ private double altura;
 		return resultado += super.perimetro();
 	}
 
-	/* public double tiempoProc(){
-		return super.tiempoProc() + ;
-	} */
+	 public double tiempoProc(){
+		return super.tiempoProc(); 
+	} 
 }

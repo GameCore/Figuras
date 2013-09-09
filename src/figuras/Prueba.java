@@ -1,8 +1,4 @@
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package figuras;
 
 import java.util.Scanner;
@@ -38,7 +34,7 @@ public class Prueba {
 			System.out.println( "Perimetro : " + cua.perimetro() + "cm" );
                             tf = System.currentTimeMillis();
                             tt = tf - ti;
-                            System.out.println("Proceso :" + tt + "Milisegundos.");
+                            System.out.println("Proceso :" + cua.tiempoProc() + tt + " Milisegundos.");
 			break;
                             
                         case 2:
@@ -47,7 +43,7 @@ public class Prueba {
 			System.out.println( "Perimetro : " + tri.perimetro() + "cm" ); 
                             tf = System.currentTimeMillis();
                             tt = tf - ti;
-                            System.out.println("Proceso :" + tt + "Milisegundos.");
+                            System.out.println("Proceso :" + tri.tiempoProc() + tt + " Milisegundos.");
                         break;
                             
                         case 3:
@@ -56,7 +52,7 @@ public class Prueba {
 			System.out.println( "Perimetro : " + rec.perimetro() + "cm" ); 
                             tf = System.currentTimeMillis();
                             tt = tf - ti;
-                            System.out.println("Proceso :" + tt + "Milisegundos.");
+                            System.out.println("Proceso :"  + rec.tiempoProc() + tt + " Milisegundos.");
                         break;
                             
                         case 4:
@@ -65,14 +61,13 @@ public class Prueba {
 			System.out.println( "Perimetro : " + cir.perimetro() + "cm" );  
                             tf = System.currentTimeMillis();
                             tt = tf - ti;
-                            System.out.println("Proceso :" + tt + "Milisegundos.");
+                            System.out.println("Proceso :" + cir.tiempoProc() + tt + " Milisegundos.");
                             break;
                            
                         default:
                             System.out.println("No esta una opcion valida");
              
                 }
-
               
 }
 }

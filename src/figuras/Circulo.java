@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package figuras;
 
 import java.util.Scanner;
@@ -27,5 +24,7 @@ public class Circulo extends Figuras{
 		double resultado = Math.PI * (radio + radio) ;
 		return super.perimetro() + resultado;
 	}
-    
+    public double tiempoProc(){
+		return super.tiempoProc(); 
+	} 
 }

@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package figuras;
 
 public class Figuras{
@@ -16,6 +13,8 @@ public class Figuras{
             return 0;
     }
 
-//	public double tiempoProc(){}
+	public double tiempoProc(){
+     return 0;
+        }
 
 }
